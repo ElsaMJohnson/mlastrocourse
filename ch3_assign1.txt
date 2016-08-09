@@ -1,0 +1,22 @@
+Chapter 3 AstroStats: 
+
+Goal: Get acquainted with different distributions 
+
+
+1)Play with different distributions using scripts in text using the stats 
+package from scipy.  
+-Find as many descriptive statistics (mean, mode, etc) as you can and that
+are relevant to the particular distribution
+-Plot each distribution as a curve and as a histogram for N=100 to 1000. 
+-Try Gaussian, Binomial,  Poisson, Cauchy, Laplace. Can do more if you want.
+
+
+2)Central Limit Theorem: Try producing the same figures for 3.20 and 3.21 but
+for non-uniform distributions. 
+
+3)Load my data, 'emj_data.txt', and fit a bivariate gaussian. Try to replicate 
+figure 3.23. 
+Use the generic scripts in snscript.py (or use your own) to read in columns 5 
+and 7 use function fit_bivariate_normal() to fit the data.
+You will have to tweak the plotting script portion of figure 3.23.
+
