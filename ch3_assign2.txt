@@ -1,0 +1,23 @@
+Chapter 3 AstroStats part2: 
+
+Goal: Get acquainted with different distributions 
+
+
+4)a)Find the pearson coefficient for two univariate data sets: Use one column of color (eg
+g-r) and separate it into two sets using 'kind'. For instance make two data sets using kind = 1 and 
+kind = -11. Make sure each data set has the same of N. Obviously, you wouldn't
+do this in practice, but this is for you to get familiar with the various quantities.
+Note: plot the two datasets against eachother and if the plot is a blobby rounded scattered mess
+then more than likely uncorrelated.
+
+b)compute the t-statistic (eqn 3.103) to determine the confidence level for how ever many degrees
+of freedom that you have. You may have to google this one for more info.
+ 
+5) a) Find the pearson coefficient r for 2 columns of data from problem 3. Spoiler alert: These are more than
+likely correlated. 
+
+b) Using eqn 3.104, find the confidence interval for 99%. This page helped a lot: https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient
+
+6) Perform the  correlation test on the two columns of data using spearmanr, pearsonr, and kendalltau.
+Using the bootstrap method, try to generate plots like 3.24
+ 
