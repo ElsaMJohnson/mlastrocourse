@@ -1,0 +1,28 @@
+
+Maximum Likelihood:
+1. Suppose that out of 100 trials of a drug, 36 trials showed an effect from the drug and 64 didn't.
+	a. Firstly, what kind of distribution is this?
+	b. What is the likelihood of these parameters if probability p =0.5 for success?
+	c. Plot likelihood for several values of p (0<p<1)
+	d. What is the most likely value for p? 
+
+Truncated gaussian:
+2. Following the example on page 130 about Karpathian students derive* their MLE for the average
+Karpathian IQ (mu) if.. 
+	a. One Karpathian student has an IQ of 140  
+	b. If 2 Karpathians have an iq of 120 and 140
+* Derive here is a poor word choice because the solution isn't analytic. Use other means.
+
+
+3. Use AIC method to find the best fit model on data. For data you can either use my data, data sets on
+ scikit learn or generate random numbers. 
+a) Fit a polynomial (1 to n orders) and exponential. Compare using AIC method.
+
+GMM
+4.a. Take a column of the previous data set or my data set and make a histogram. Find a GMM that fits
+  b. Following the example on figure 4.2 create your own GMM and randomly select from it to create a 
+    distribution and try to fit a GMM using a range of models. 
+      i. Figure out the probabilities of data points belonging to each class.
+      ii. Use AIC to find the best fit. You can use BIC as well but evidently this is a later topic.
+
+
