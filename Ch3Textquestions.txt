@@ -1,0 +1,8 @@
+Contingency table question using Bayes formula
+Why is the interquartile range better than standard deviation for some distributions?
+What is standard error and standard error of the mean?  What is the difference between these two quantities? 
+Using equation 3.30 find the median of distribution ___ (must be mildly non-gaussian)
+Derive the standard error for qp (eqn 3.37)
+Derive formula 3.36 from the text. 
+In words, what is the central value limit theorem?
+What is the difference between a binomial and poisson disribution?
